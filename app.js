@@ -15,7 +15,7 @@ consign()
   .include('./src/config/passport.js')
   .then('./src/config/middlewares.js')
   .then('./src/config/validation.js')
-  .then('./src/api')
+  .then('./src/controller')
   .then('./src/config/routes.js')
   .into(app);
 
